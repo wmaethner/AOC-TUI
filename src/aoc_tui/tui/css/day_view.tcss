@@ -1,0 +1,19 @@
+TabbedContent {
+    color: white;
+}
+RichLog {
+    border: solid white;
+}
+DayPartView {
+    height: auto;
+} 
+ResultsComponent {
+    height: auto;
+}
+LogComponent {
+    height: auto;
+}
+.box {
+    height: auto;
+    border: solid white;
+}

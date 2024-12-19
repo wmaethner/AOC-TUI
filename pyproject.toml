@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "aoc-tui"
+version = "0.1.0"
+description = ""
+authors = ["Will Maethner <32457351+wmaethner@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "aoc_tui", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+textual = "^0.84.0"
+textual-dev = "^1.6.1"
+click = "^8.1.7"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+art = "^6.3"
+dataclasses-json = "^0.6.7"
+aiohttp = "3.10.10"
+
+[tool.poetry.scripts]
+aoc = "aoc_tui.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

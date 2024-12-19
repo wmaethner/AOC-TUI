@@ -1,0 +1,28 @@
+ComponentTester {
+    layout: grid;
+    grid-size: 2;
+    grid-columns: 1fr 4fr;
+    width: 100%;
+    height: 100%;
+}
+    
+ComponentContainer {
+    border: solid white;
+}
+
+TabbedContent {
+    color: white;
+}
+
+RichLog {
+    border: solid white;
+}
+
+.box {
+    height: auto;
+    border: solid white;
+}
+
+# *:focus {
+#     border: solid red;
+# }

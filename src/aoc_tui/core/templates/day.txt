@@ -1,0 +1,9 @@
+from aoc_tui.core.aoc_day import AOCDay
+
+
+class Day{x}(AOCDay):
+    def part1(self, input: list[str]) -> list[str]:
+        pass
+
+    def part2(self, input: list[str]) -> list[str]:
+        pass

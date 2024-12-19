@@ -1,0 +1,55 @@
+AOCTuiApp {
+    height: 50;
+    width: 130;
+    max-height: 50;
+    max-width: 130;
+}
+
+YearDisplay {
+    layout: horizontal;
+    background: $boost;
+    height: 10;
+    # margin: 1;
+    min-width: 50;
+    padding: 1;
+    border: solid green;
+    content-align-vertical: middle;
+}
+
+YearDetails {
+    layout: vertical;
+    # background: $boost;
+    height: auto;
+    width: 1fr;
+    content-align-vertical: middle;
+    # height: 10;
+    # margin: 1;
+    # min-width: 50;
+    # padding: 1;
+    # border: solid green;
+}
+
+.box {
+    height: 100%;
+    width: 1fr;
+    content-align-vertical: middle;
+}
+
+YearDisplay:focus {
+    background: $success;
+    color: black;
+    border: none;
+}
+
+.year-title {
+    dock: left;
+}
+
+
+Year:focus {
+    background: $boost
+}
+
+YearButton:focus {
+    background: $success
+}
